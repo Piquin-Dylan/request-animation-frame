@@ -8,6 +8,7 @@ export const settings = {
         maxSpeed: 7
     },
     monster: {
+        src: "src/img/sprite.png",
         width: 27,
         height: 29,
         frames: [
@@ -34,5 +35,6 @@ export const settings = {
         y: 150,
         maxFallSpeed: 3
     },
-    gravity: 0.2
+    gravity: 0.2,
+    canvasID: "my-canvas"
 }
